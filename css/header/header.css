@@ -1,0 +1,35 @@
+.cabecalho {
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--marrom2);
+    margin-top: 2em;
+    border-top-right-radius: 1em;
+    border-top-left-radius: 1em;
+    padding: 2em;
+}
+
+.titulo__header {
+    font-size: 3em;
+    font-family: var(--font__personalizada);
+    color: var(--marrom-claro);
+}
+
+.menu__lista {
+    display: flex;
+    list-style: none;
+    gap: 20px;    
+}
+
+.menu__link {
+    text-decoration: none;
+    color: white;
+    text-transform: lowercase;
+}
+
+.menu__link:hover {
+    text-decoration: underline;
+    color: var(--marrom-claro);
+}

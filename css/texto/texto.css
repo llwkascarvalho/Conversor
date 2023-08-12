@@ -1,6 +1,6 @@
 .secao__texto {
     max-width: 800px;
-    background-color: var(--marrom2);
+    background-color: white;
     margin: auto;
     padding: 0 2em 2em 2em;
     border-bottom-left-radius: 1em;
@@ -8,19 +8,38 @@
 }
 
 .ativo {
-    color: var(--marrom-claro);
+    color: rgb(231, 184, 97);
+    background: linear-gradient(to right, #05181775, #090b2ca9, #1e0b2298);
+    padding: 0.3em 0.5em;
+    color: white;
+    border-radius: 0.5em;
 }
 
 .titulo__texto {
-    color: var(--marrom-claro);
+    color: #18042b;
 }
 
 .menu__texto {
     margin-top: 1.5em;
 }
 
+.lista__texto {
+    display: flex;
+    max-width: 650px;
+    gap: 10px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
 .item {
     margin-bottom: 1em;
+    width: 200px;
+    height: 250px;
+    border: 1px solid #18042b;
+    padding: 1em;
+    border-radius: 0.5em;
+
 }
 
 .sobre__item {
@@ -28,7 +47,7 @@
 }
 
 .link {
-    color: white;
+    color: #000000e7;
 }
 
 .link:hover {

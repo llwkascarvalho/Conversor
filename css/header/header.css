@@ -4,7 +4,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: var(--marrom2);
+    background-color: white;
     margin-top: 2em;
     border-top-right-radius: 1em;
     border-top-left-radius: 1em;
@@ -14,7 +14,7 @@
 .titulo__header {
     font-size: 3em;
     font-family: var(--font__personalizada);
-    color: var(--marrom-claro);
+    color: #18042b;
 }
 
 .menu__lista {
@@ -25,7 +25,7 @@
 
 .menu__link {
     text-decoration: none;
-    color: white;
+    color: rgb(177, 115, 23);
     text-transform: lowercase;
 }
 

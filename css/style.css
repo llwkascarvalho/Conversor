@@ -3,6 +3,7 @@
 :root {
 
     --font__personalizada: 'Handjet', cursive;
+    --color: #f5deb33f;
 
     --amarelo-claro: #e0d1005d;
     --marrom-claro: #66461ce1;
@@ -19,5 +20,6 @@
 }
 
 body {
-    background-color: var(--amarelo-claro);
+    background: linear-gradient(to right, #05181775, #090b2c, #1e0b22);
+    padding: 2em;
 }
